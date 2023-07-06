@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../static/css/paquetes.css">
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=PT+Sans:wght@700&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <title>Paquetes - Traveler</title>
+</head>
+
+<body>
+    <!--========================================================== -->
+    <!-- ENCABEZADO -->
+    <!--========================================================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <img src="../static/img/logo-2.png" class="img-logo" alt="">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" style="font-family: 'Merriweather'"
+                            href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-family: 'Merriweather'"
+                            href="../templates/paquetes.html">Paquetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-family: 'Merriweather'" href="./vuelos.html">Vuelos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-family: 'Merriweather'" href="./cruceros.html">Cruceros</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="input-container">
+                <br>
+                <a href="../templates/login.html"><input type="button" value="Iniciar Sesión"
+                        class="btn btn-primary"></a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container" style="background-color: #e03333; padding-top: 20px; padding-bottom: 20px" id="container">
+        <h1 style="color: white; font-family: 'Roboto Condensed', sans-serif;">Paquetes Turísticos</h1>
+        <p style="color: white; text-align: center; font-family: 'Merriweather'; font-weight: bolder;">En esta sección
+            puedes encontrar todos los paquetes turísticos
+            disponibles</p>
+    </div>
+    <br><br>
+    <!--========================================================== -->
+    <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+    <section class="w-100">
+        <div class="row w-75 mx-auto justify-content-center" id="servicios-fila-1">
+            <!--========================================================== -->
+            <!-- MODALES-->
+            <!--========================================================== -->
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Tour Atacames</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p> <b>Descripción.-</b>
+                                Empezamos nuestro viaje en el lugar que hemos acorado la partida en la noche anterior e
+                                iniciamos nuestra aventura hacia la Provincia de Esmeraldas.
+
+                                DÍA1.- Llegamos a nuestro destino Atacames. Tendremos la mañana libre para conocer y
+                                disfrutar de la playa. Luego llega el momento de visitar el Peñón del suicida, donde
+                                podremos admirar las maravillas de especies de la zona costera, posterior nos
+                                dirigiremos hacia la Playa de Tonsupa, Same o Súa para poder apreciar la caída del sol.
+                                Para terminar el día tendremos una noche farra y diversión en la mejor covacha de
+                                Atacames “Madera Fina”, aquí disfrutaremos de un show en vivo.
+
+                                DÍA2.- Está mañana podrás disfrutar de las instalaciones del hotel o si lo deseas
+                                realizar compras de artesanías por el Malecón, luego realizaremos un deporte acuático.
+                                Visitaremos la fábrica de las cocadas esmeraldeñas, donde observaremos su elaboración y
+                                además podremos adquirir este rico dulce.
+
+                                Finalmente, retornamos a la Ciudad de Quito, estaremos llegando aproximadamente a las
+                                21h00. Fin de nuestros servicios.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="myModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Paquete Puerto Ballarta</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p> <b>Descripción.-</b>
+                                Sumérgete en este paquete a Puerto Vallarta y deléitate de 4 días y 3 noches con el
+                                sistema All Inclusive, en una de las cadenas hoteleras más reconocidas como lo es
+                                DeCameron, imagínate disfrutar de las más hermosas playas de la Riviera Nayarit.
+
+                                A tan solo 10 minutos de Puerto Vallarta y con un sinfín de actividades que ofrecen este
+                                destino turístico como la visita a las Islas Marietas y sus impresionantes cenotes o el
+                                nado con delfines o el tour del Tequila.
+
+                                Recuerda un asesor estará gustoso de ayudarte con toda la información que necesitas.
+                                <hr>
+                                <b>PAQUETE INCLUYE:</b>
+                                Boleto aéreo de ida y vuelta Quito o Guayaquil – Puerto Vallarta – Quito o Guayaquil VÍA
+                                COPA suplemento de $67 saliendo desde Quito.
+                                Transfer ida y vuelta aeropuerto / hotel / aeropuerto en servicio compartido
+                                4 noches de alojamiento en ROYAL DECAMERON COMPLEX
+                                Sistema todo incluido (Desayunos, almuerzos y cenas tipo buffet)
+                                Cenas a la carta
+                                Snacks
+                                Bebidas ilimitadas
+                                5 piscinas
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Paquete Riviera Maya</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p> <b>Descripción.-</b>
+                                Un tour a la Riviera Maya es una experiencia que no se vive todos los días, recorrer
+                                este paraíso en México es una de las cosas que debes realizar en la vida, no en vano es
+                                unos de los lugares más visitados del país, en apenas sus 130 km vas a encontrar más de
+                                400 hoteles.
+
+                                La Riviera Maya un paradisiaco lugar donde vas a encontrar diversión tanto en el día
+                                como en la noche, ya sea en sus cristalinas playas, parques temáticos, ruinas
+                                arqueológicas como Tulum, Chichen Itza o en sus clubes nocturnos.
+                                <hr>
+                                <b>Paquete a la Riviera Maya Incluye:</b>
+                                Boleto aéreo en la ruta Quito – Cancún – Quito
+                                Transferencias desde el aeropuerto hasta el hotel y viceversa.
+                                4 noches de hospedaje en el Hotel Gran Bahia Principe Tulum 5*
+                                Habitaciones Tipo Superiores
+                                Régimen ALL INCLUSIVE
+                                Desayuno, almuerzo y cena tipo buffet más snacks (Restaurante Buffet Hotel Tulum)
+                                Dispones de una amplia selección de bebidas locales, cerveza y refrescos ilimitados en
+                                los bares del hotel hasta las 23:00 h (bebidas premium con coste adicional)
+                                En tu habitación cuentas con aperitivos, zumos, refrescos y cerveza (reposición diaria)
+                                Cafetería con comida y aperitivos americanos tradicionales, atención las 24 horas
+                                (bebidas alcohólicas se sirven hasta la medianoche)
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../static/img/atacames.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="">
+                        <p class="card-text" style="text-align: center; color:black">Tour a Atacames 2 Días y 1 Noche –
+                            2023</p>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"
+                        style="text-align: center; display: inline-block; width: 100%;">79.00</button>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="card" style="width: 18rem;">
+                <img src="../static/img/mexico-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="">
+                        <p class="card-text" style="text-align: center; color:black">Paquete Puerto Ballarta una semana
+                            2023</p>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1"
+                        style="text-align: center; display: inline-block; width: 100%;">1,089.00</button>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="card" style="width: 18rem;">
+                <img src="../static/img/rivieraMaya.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="">
+                        <p class="card-text" style="text-align: center; color:black">Paquete Riviera Maya en México 2023
+                        </p>
+                    </a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2"
+                        style="text-align: center; display: inline-block; width: 100%;">1,089.00</button>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img src="../static/img/new-york.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="">
+                        <p class="card-text" style="text-align: center; color:black">Tour a New York una semana –
+                            2023</p>
+                    </a>
+                    <a href="" style="text-align: center; display: inline-block; width: 100%;"><input type="button"
+                            value="$ 2,826.00" class="btn btn-primary"></a>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="card" style="width: 18rem;">
+                <img src="../static/img/barcelona.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="">
+                        <p class="card-text" style="text-align: center; color:black">Tour a Barcelona 5 Días y 4 Noches
+                            –
+                            2023</p>
+                    </a>
+                    <a href="" style="text-align: center; display: inline-block; width: 100%;"><input type="button"
+                            value="$ 375.00" class="btn btn-primary"></a>
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="card" style="width: 18rem;">
+                <img src="../static/img/cancun-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="">
+                        <p class="card-text" style="text-align: center; color:black">Tour a Cancún 5 Días y 4 Noches –
+                            2023</p>
+                    </a>
+                    <a href="" style="text-align: center; display: inline-block; width: 100%;"><input type="button"
+                            value="$ 995.00" class="btn btn-primary"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br>
+    <!--========================================================== -->
+    <!-- SECCION CONTACTOS-->
+    <!--========================================================== -->
+
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+        <div id="bg-contactos">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#1b2a4e" fill-opacity="1"
+                    d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+
+        <!--========================================================== -->
+        <!-- CONTENEDOR DEL FORMULARIO -->
+        <!--========================================================== -->
+
+        <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+            <div class="text-center mb-4" id="titulo-formulario">
+                <div><img src="../static/img/support.png" alt="" class="img-fluid ps-5"></div>
+                <br>
+                <h2>¿A dónde quieres viajar?</h2>
+            </div>
+
+            <form method="POST" data-netlify="true" action="#">
+
+                <div class="mb-3">
+                    <input type="input" class="form-control" id="name" name="name" placeholder="Bladimir Chicaiza">
+                </div>
+
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+                </div>
+
+                <div class="mb-3">
+                    <textarea class="form-control" name="message" id="message" rows="4"
+                        placeholder="Escriba su mensaje"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+
+    <!--========================================================== -->
+    <!--FOOTER-->
+    <!--========================================================== -->
+
+
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3  pt-3">Blad1-Ken &copy; Todos Los Derechos Reservados 2023</p>
+        <div id="iconos">
+            <a href="https://www.facebook.com/bladimir.alex1" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/Bladimi94812961" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/blad1_ken/" target="_blank"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./static/scripts/main.js"></script>
+</body>
+
+</html>
